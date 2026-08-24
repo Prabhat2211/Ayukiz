@@ -1,0 +1,10 @@
+[browse] Failed to start: [browse] Cannot bind localhost ports after 5 attempts in range 10000-49151. Last error: 40593 (EPERM: Failed to listen at 127.0.0.1). This usually means the current sandbox or OS permissions are blocking localhost port binding, not that every sampled port is occupied. Allow localhost binding, set BROWSE_PORT to an approved port, or run browse from an unrestricted terminal.
+[browse] Failed to start: [browse] Cannot bind localhost ports after 5 attempts in range 10000-49151. Last error: 48646 (EPERM: Failed to listen at 127.0.0.1). This usually means the current sandbox or OS permissions are blocking localhost port binding, not that every sampled port is occupied. Allow localhost binding, set BROWSE_PORT to an approved port, or run browse from an unrestricted terminal.
+[browse] Server running on http://127.0.0.1:23586 (PID: 59795)
+[browse] State file: /Users/prabhatvashishth/Desktop/Something/Ayukiz/docs/.gstack/browse.json
+[browse] Idle timeout: 1800s
+[browse] Parent process 59791 exited (server stays alive, idle timeout will clean up)
+[browse] terminal-agent respawned by watchdog (PID: 59810)
+[browse] Idle for 1800s, shutting down
+[browse] Shutting down...
+[browse] Tab closed (id=1, remaining=0)
