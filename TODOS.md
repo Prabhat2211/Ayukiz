@@ -41,3 +41,17 @@ Cons: Adds coordination work, turnaround-time constraints, and likely cost per r
 Context: The approved plan separates founder/admin work from pharmacist review and doctor/nurse review. Urgent red flags bypass normal review and tell the family to seek urgent medical care.
 
 Depends on / blocked by: Define reviewer availability, scope, payment, response time, and signoff language before accepting cases that need review.
+
+## ABDM / health locker compatibility research
+
+What: Research whether Ayukiz should later integrate with ABHA/ABDM health lockers or remain a manual packet workflow.
+
+Why: ABDM already supports consent-based health-record sharing and health lockers in India. Ayukiz should not accidentally rebuild a long-term health-record system if the right future path is to generate packets from user-controlled records.
+
+Pros: Keeps future architecture aligned with India's health-data ecosystem and avoids wasting an innovation token on generic record storage.
+
+Cons: Not needed for the first manual pilot and could distract from proving packet demand.
+
+Context: The approved V1 explicitly avoids a broad health wallet, but the product may later need to import or link records from ABDM-compatible health lockers after repeat demand is proven.
+
+Depends on / blocked by: Complete 5-10 manual packet pilots first, then evaluate if repeated use justifies integration research.
